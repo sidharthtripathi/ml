@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const ProductsPage = () => {
   const fadeInUp = {
@@ -99,7 +100,9 @@ const ProductsPage = () => {
                         <span className="text-sm">{feature}</span>
                       </div>
                     ))}
-                    <Button className="w-full mt-4">Request Quote</Button>
+                    <Button className="w-full mt-4"  asChild  >
+                        <Link to="/contact">Request Quote</Link>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
