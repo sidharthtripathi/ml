@@ -51,7 +51,7 @@ const AboutPage = () => {
               className="rounded-lg shadow-lg"
             />
             <img 
-              src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=300&h=400"
+              src="https://static.vecteezy.com/system/resources/previews/006/801/470/non_2x/time-management-concept-planning-organization-working-time-time-organization-efficiency-schedule-job-project-team-good-business-process-time-control-plan-technology-illustration-vector.jpg"
               alt="Precision components"
               className="rounded-lg shadow-lg mt-8"
             />
